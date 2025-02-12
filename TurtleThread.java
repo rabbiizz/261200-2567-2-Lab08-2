@@ -21,9 +21,9 @@ class TurtleThread extends Thread {
     }
 
     private void drawBase() {
-        turtle.bgcolor("blue");
+        turtle.bgcolor("lightskyblue");
         turtle.width(2);
-        turtle.dot("brown", 40);
+        turtle.dot("green", 40);
         turtle.hide();
     }
 
